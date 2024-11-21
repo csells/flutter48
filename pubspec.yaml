@@ -1,0 +1,20 @@
+name: flutter2048
+description: A 2048 game with smooth animations
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  all_lint_rules_community: ^0.0.43
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
